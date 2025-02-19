@@ -1,7 +1,7 @@
-/* Create a style.css file for styling */
+/* Updated style.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,42 +9,67 @@ body {
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(135deg, #0073b1, #004080);
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
+    font-size: 1.5rem;
 }
 
-h1, h2 {
+h1 {
     margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .about, .experience, .certifications, .contact {
     background: white;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    line-height: 1.6;
 }
 
 li {
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 a {
     text-decoration: none;
     color: #0073b1;
     font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background: #0073b1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #005582;
 }
