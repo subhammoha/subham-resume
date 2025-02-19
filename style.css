@@ -11,8 +11,10 @@ body {
 header {
     background: linear-gradient(135deg, #0073b1, #004080);
     color: white;
-    padding: 40px 0;
-    font-size: 1.5rem;
+    padding: 60px 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -26,19 +28,26 @@ h2 {
     font-size: 1.2rem;
 }
 
-.about, .experience, .certifications, .contact {
+.about, .experience, .certifications, .projects, .contact {
     background: white;
     margin: 30px auto;
     padding: 30px;
-    max-width: 700px;
+    max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: left;
 }
 
+.project-card {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
@@ -68,6 +77,12 @@ a {
     border-radius: 5px;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.btn i {
+    margin-right: 5px;
 }
 
 .btn:hover {
