@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Resume Generator</h1>
+    </header>
+    <div class="form-container">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="john@example.com">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="123-456-7890">
+        </div>
+        <div class="form-group">
+            <label for="summary">Professional Summary</label>
+            <textarea id="summary" placeholder="Brief summary"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="experience">Work Experience</label>
+            <textarea id="experience" placeholder="List your work experience"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="education">Education</label>
+            <textarea id="education" placeholder="Your education"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="skills">Skills</label>
+            <textarea id="skills" placeholder="Your key skills"></textarea>
+        </div>
+        <button class="btn" onclick="generateResume()">Generate Resume</button>
+    </div>
+
+    <div id="resume-output"></div>
+
+    <script src="portal.js"></script>
+</body>
+</html>
